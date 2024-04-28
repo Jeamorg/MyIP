@@ -295,11 +295,11 @@ export default {
       isCardsCollapsed: JSON.parse(localStorage.getItem('isCardsCollapsed')) || false,
       placeholderSizes: [12, 8, 6, 8, 4],
       sources: [
-        { id: 0, text: 'IPCheck.ing', enabled: true },
+        { id: 0, text: 'IPCheck.ing', enabled: false },
         { id: 1, text: 'IPinfo.io', enabled: true },
         { id: 2, text: 'IP-API.com', enabled: true },
         { id: 3, text: 'IPAPI.co', enabled: true },
-        { id: 4, text: 'KeyCDN', enabled: true },
+        { id: 4, text: 'KeyCDN', enabled: false },
         { id: 5, text: 'IP.SB', enabled: true },
       ],
       pendingIPDetailsRequests: new Map(),
