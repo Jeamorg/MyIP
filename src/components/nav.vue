@@ -69,21 +69,6 @@
         <a class="nav-link" :class="{ 'text-white jn-deactive': isDarkMode }" href="#AdvancedTools"
           @click="collapseNav(); $trackEvent('Nav', 'NavClick', 'AdvancedTools')"> {{ $t('nav.AdvancedTools') }}</a>
       </div>
-      <a :href="$t('page.footerLink')" class="btn jn-fs" id="githubStars"
-        :class="{ 'btn-outline-light' : isDarkMode, 'btn-dark': !isDarkMode, 'mt-2': isMobile, 'ms-2': !isMobile}" target="_blank"
-        @click="$trackEvent('Footer', 'FooterClick', 'Github');" aria-label="Github">
-        <div><i class="bi bi-github"></i></div>
-        <div class="row flex-column ">
-          <TransitionGroup name="slide-fade">
-            <span key="default" class="col-12 jn-w" v-if="githubStars === 0">&nbsp;GitHub</span>
-            <span key="stars" class="col-12 jn-w" v-if="githubStars > 0">
-              &nbsp;{{ githubStars }}
-              <i class="bi bi-star-fill" :class="[isDarkMode ? 'redstar' : 'yellowstar']"></i>
-            </span>
-          </TransitionGroup>
-
-        </div>
-      </a>
     </div>
   </nav>
 </template>
