@@ -1,7 +1,7 @@
 {
     "nav": {
         "id": "nav",
-        "Title": "IPCheck.ing",
+        "Title": "MyIP",
         "IPinfo": "Infos IP",
         "Connectivity": "Connectivité",
         "WebRTC": "Test WebRTC",
