@@ -101,12 +101,6 @@
       </div>
     </div>
 
-    <div id="copyright" v-if="!configs.originalSite">
-      <p class="text-center fs-6 fw-light" style="opacity: 0.5;">
-        {{ $t('page.copyRightName') }} <a :href="$t('page.copyRightLink')" class="link-underline-light" target="_blank"
-          :class="[isDarkMode ? 'dark-mode link-light' : 'link-dark']">{{ $t('page.copyRightLinkName') }}</a>
-      </p>
-    </div>
   </footer>
 </template>
 
