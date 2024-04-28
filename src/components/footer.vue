@@ -44,7 +44,6 @@
               {{ $t('about.product3') }}
             </p>
           </div>
-          <h5>{{ $t('about.meTitle') }}</h5>
           <div class="mb-3">
             <p>
               {{ $t('about.me1') }}
