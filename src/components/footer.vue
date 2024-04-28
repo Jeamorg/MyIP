@@ -8,14 +8,6 @@
       </p>
     </div>
 
-    <div id="about" class="text-center mb-2">
-      <a class="link link-underline-offset link-underline-opacity-0" :class="[isDarkMode ? 'link-info' : 'link-dark']"
-        data-bs-toggle="offcanvas" href="#About" role="button" aria-controls="About"
-        @click="$trackEvent('Footer', 'FooterClick', 'About');">
-        {{ $t('about.Title') }} <i class="bi bi-arrow-left-circle-fill"></i>
-      </a>
-    </div>
-
 
     <div class="offcanvas offcanvas-end mt-5" :class="[isMobile ? ' w-100' : '']" tabindex="-1" id="About"
       aria-labelledby="AboutLabel" :data-bs-theme="isDarkMode ? 'dark' : 'light'">
@@ -44,6 +36,7 @@
               {{ $t('about.product3') }}
             </p>
           </div>
+          <h5>{{ $t('about.meTitle') }}</h5>
           <div class="mb-3">
             <p>
               {{ $t('about.me1') }}
