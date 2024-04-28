@@ -255,10 +255,10 @@
         "CensorshipCheck": "Ouvrir le Test de censorship"
     },
     "page": {
-        "title": "IPCheck.ing - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse - Jason Ng Open Source",
+        "title": "IPCheck.ing - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse",
         "description": "Une boîte à outils IP améliorée. Facile pour vérifier vos adresses IP, les informations IP, vérifier les fuites DNS, examiner les connexions WebRTC et tester la disponibilité des sites web.",
         "keywords": "MonIP, Outil IP, Mon IP, Vérification IP, Recherche IP, Test de fuite DNS, Test WebRTC, Test de vitesse",
-        "footerName": "Créateurs : Jason Ng, Seven Yu & ChatGPT",
+        "footerName": "GitHub",
         "footerLink": "https://github.com/jason5ng32/MyIP",
         "copyRightName": "Originalement de ",
         "copyRightLink": "https://ipcheck.ing",
